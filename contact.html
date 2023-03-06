@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/reset.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <h1 class="contactme">Entre em contato</h1>
+    <nav>
+      <div class="menu">
+        <ol>
+          <li><a href="./sobre.html">Sobre Mim </a></li>
+          <li><a href="./experiencia.html"> Experiências Profissionais </a></li>
+          <li><a href="./index.html"> Página Inicial </a></li>
+        </ol>
+      </div>
+    </nav>
+
+    <form class="contactform">
+      <div class="name">
+        <label for="name">Nome: </label>
+        <input type="text" name="name" required />
+      </div>
+      <div class="email">
+        <label for="email"> E-mail: </label>
+        <input type="text" name="email" required />
+      </div>
+
+      <div class="message">
+        <label for="message"> Mensagem:</label>
+
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          cols="38"
+          required
+        ></textarea>
+      </div>
+      <div class="contactbutton">
+        <input type="submit" value="Enviar" id="contactbutton" />
+      </div>
+    </form>
+    <footer class="social-media">
+      <h3 class="follow">Follow Me!</h3>
+
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="/images/instagram.png" />
+      </a>
+
+      <a href="https://www.linkedin.com/" target="_blank">
+        <img src="/images/linkedin.png" />
+      </a>
+    </footer>
+  </body>
+</html>

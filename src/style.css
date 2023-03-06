@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+  line-height: 1.5;
+  margin: 30px 30px;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+h1{
+  text-align: center;
+}
+
+.developer,
+.info,
+.habilities {
+  margin-bottom: 20px;
+}
+
+.developer,
+.habilities,
+.social-media {
+  text-align: center;
+}
+
+.coderpic {
+  width: 400px;
+}
+
+.menu a{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.info {
+  margin: 50px;
+}
+
+.follow {
+  margin-top: 80px;
+}
+
+.social-media img {
+  padding: 15px;
+}
+
+.info .dob {
+  text-align: end;
+  margin-top: -55px;
+}
+
+.info .city {
+  text-align: start;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.contactme {
+  text-align: center;
+  padding: 30px;
+}
+
+.homepage {
+  text-align: center;
+  padding: 50px;
+}
+
+.homepage a {
+  text-decoration: none;
+}
+.name,
+.message,
+.email {
+  padding: 15px;
+  text-align: left;
+}
+
+#contactbutton {
+  font-size: 14px;
+  color: #ffff;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgb(50, 127, 169);
+}
